@@ -9,8 +9,7 @@ const routes: Routes = [
     { path: "search", loadChildren: () => import("~/app/search/search.module").then((m) => m.SearchModule) },
     { path: "featured", loadChildren: () => import("~/app/featured/featured.module").then((m) => m.FeaturedModule) },
     { path: "settings", loadChildren: () => import("~/app/settings/settings.module").then((m) => m.SettingsModule) },
-    { path: "ingreso", loadChildren: () => import("~/app/ingreso/ingreso.module").then((m) => m.IngresoModule) },
-    { path: "lista", loadChildren: () => import("~/app/lista/lista.module").then((m) => m.ListaModule) }
+    { path: "modulo1", loadChildren: () => import("~/app/modulo1/modulo1.module").then((m) => m.Modulo1Module) }
     
 ];
 

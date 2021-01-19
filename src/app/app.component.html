@@ -40,15 +40,11 @@ https://docs.nativescript.org/angular/ui/professional-ui-components/ng-SideDrawe
                     <Label col="1" text="Settings" class="p-r-10"></Label>
                 </GridLayout>
 
-                <GridLayout columns="auto, *" class="nt-drawer__list-item" [class.-selected]="isComponentSelected('/ingreso')" (tap)="onNavItemTap('/ingreso')">
+                <GridLayout columns="auto, *" class="nt-drawer__list-item" [class.-selected]="isComponentSelected('/modulo1')" (tap)="onNavItemTap('/modulo1')">
                     <Label col="0" text="&#xf044;" class="nt-icon fas"></Label>
-                    <Label col="1" text="Ingreso medidas" class="p-r-10"></Label>
+                    <Label col="1" text="Nuevo móddulo"  class="p-r-10"></Label>
                 </GridLayout>
-
-                <GridLayout columns="auto, *" class="nt-drawer__list-item" [class.-selected]="isComponentSelected('/lista')" (tap)="onNavItemTap('/lista')">
-                    <Label col="0" text="&#xf0ca;" class="nt-icon fas"></Label>
-                    <Label col="1" text="Lista" class="p-r-10"></Label>
-                </GridLayout>
+               
             </StackLayout>
         </ScrollView>
     </GridLayout>
